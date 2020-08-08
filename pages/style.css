@@ -33,6 +33,12 @@ a {
   font-family: 'Varela Round', sans-serif;
 }
 
+a h {
+  font-family: 'Assistant', sans-serif;
+  font-family: 'Donegal One', serif;
+  font-family: 'Varela Round', sans-serif;
+}
+
 #Mainpage-content {
   width: 100%;
   display: -ms-grid;
@@ -42,6 +48,36 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#Mainpage-Footer {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  min-height: 10vh;
+  justify-items: last baseline;
+  -webkit-box-align: last baseline;
+      -ms-flex-align: last baseline;
+          align-items: last baseline;
+}
+
+#Aboutpage-header {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  min-height: 10vh;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (min-width: 400px) {
+  div {
+    background-color: white;
+  }
 }
 
 @media only screen and (min-width: 600px) {
