@@ -19,7 +19,7 @@
   height: 10vh;
   display: -ms-grid;
   display: grid;
-  grid-column: 50% 50%;
+  min-height: 10vh;
 }
 
 a {
