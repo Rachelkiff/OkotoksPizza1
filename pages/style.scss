@@ -83,6 +83,44 @@
     align-items: center;
 }
 
+#Location-header{
+    width: 100%;
+    display: grid;
+    min-height: 10vh;
+    justify-items: center;
+    align-items: center;
+
+}
+
+#Location-content{
+    width: 100%;
+    display: grid;
+    min-height: 10vh;
+    justify-items: center;
+    align-items: center;
+
+
+}
+
+#Location-footer{
+    width: 100%;
+    display: grid;
+    min-height: 10vh;
+    justify-items: center;
+    align-items: center;
+
+
+}
+
+#menu-header{ 
+    width: 100%;
+    display: grid;
+    min-height: 10vh;
+    justify-items: center;
+    align-items: center;
+
+}
+
 
 @media only screen and (min-width: 400px){
     div{

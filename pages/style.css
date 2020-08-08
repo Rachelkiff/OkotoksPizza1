@@ -74,6 +74,72 @@ a h {
           align-items: center;
 }
 
+#Aboutpage-content {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  min-height: 10vh;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Aboutpage-footer {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  min-height: 10vh;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Location-header {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  min-height: 10vh;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Location-content {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  min-height: 10vh;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Location-footer {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  min-height: 10vh;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#menu-header {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  min-height: 10vh;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 @media only screen and (min-width: 400px) {
   div {
     background-color: white;
