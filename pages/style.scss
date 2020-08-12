@@ -63,6 +63,11 @@
     min-height: 10vh;
     justify-items: center;
     align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+
 
 }
 
@@ -72,6 +77,13 @@
     min-height: 10vh;
     justify-items: center;
     align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+
+
+    
 
 }
 
@@ -89,6 +101,11 @@
     min-height: 10vh;
     justify-items: center;
     align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+
 
 }
 
@@ -98,6 +115,18 @@
     min-height: 10vh;
     justify-items: center;
     align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+
+    iframe {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
 
 
 }
@@ -121,14 +150,31 @@
 
 }
 #menu-content{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    
+
+
+    .card-container{
+        max-width: 350px;
+        text-align: center;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+      
+       
+        
+
+    }
     
 }
 
-@media only screen and (min-width: 400px){
-    div{
-        background-color: white;
-    }
-}
+
 
 
 

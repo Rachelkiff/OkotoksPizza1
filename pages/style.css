@@ -72,6 +72,10 @@ a h {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 4vw;
+  margin-right: 4vw;
 }
 
 #Aboutpage-content {
@@ -83,6 +87,10 @@ a h {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 4vw;
+  margin-right: 4vw;
 }
 
 #Aboutpage-footer {
@@ -105,6 +113,10 @@ a h {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 4vw;
+  margin-right: 4vw;
 }
 
 #Location-content {
@@ -116,6 +128,17 @@ a h {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+#Location-content iframe {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 
 #Location-footer {
@@ -140,10 +163,25 @@ a h {
           align-items: center;
 }
 
-@media only screen and (min-width: 400px) {
-  div {
-    background-color: white;
-  }
+#menu-content {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+#menu-content .card-container {
+  max-width: 350px;
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 @media only screen and (min-width: 600px) {
