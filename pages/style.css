@@ -287,18 +287,6 @@ a h {
     -ms-grid-columns: 2fr 2fr 2fr 2fr;
         grid-template-columns: 2fr 2fr 2fr 2fr;
   }
-  #Location-header {
-    width: 100%;
-    display: -ms-grid;
-    display: grid;
-    min-height: 10vh;
-    justify-items: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-grid-columns: 2fr 2fr 2fr 2fr;
-        grid-template-columns: 2fr 2fr 2fr 2fr;
-  }
   #Mainpage-content {
     width: 100%;
     display: -ms-grid;
@@ -315,17 +303,7 @@ a h {
     width: 300px;
     height: 200px;
   }
-  #About-image {
-    height: 300px;
-    width: 300px;
-    justify-items: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-left: 50vw;
-    margin-right: 50vw;
-  }
-  #Aboutpage-content {
+  #Location-header {
     width: 100%;
     display: -ms-grid;
     display: grid;
@@ -334,6 +312,14 @@ a h {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -ms-grid-columns: 2fr 2fr 2fr 2fr;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+  }
+  #About-image {
+    height: 300px;
+    width: 300px;
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
   #Aboutpage-header {
     width: 100%;
@@ -344,11 +330,21 @@ a h {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-grid-columns: 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-columns: 2fr 2fr 2fr 2fr;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
   }
   #Aboutpage-content {
-    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    min-height: 85vh;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+  }
+  #menu-header {
     display: -ms-grid;
     display: grid;
     min-height: 10vh;
@@ -356,12 +352,8 @@ a h {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-grid-columns: 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-  iframe {
-    margin-left: 50vw;
-    margin-right: 50vw;
+    -ms-grid-columns: 2fr 2fr 2fr 2fr;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
   }
 }
 /*# sourceMappingURL=style.css.map */
