@@ -244,6 +244,7 @@
         align-items: center;
         margin-top: 5vh;
         margin-bottom: 5vh;
+    }
      
     img{
         width: 100%;
@@ -260,4 +261,37 @@
         width: 100%;
         min-height: 100vh;
     }
+    #Mainpage-header{
+        width: 100%;
+        display: grid;
+        min-height: 10vh;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+    }
+
+    #Location-header{
+        width: 100%;
+        display: grid;
+        min-height: 10vh;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: 2fr 5fr 1fr 1fr;
+
+    }
+    #Mainpage-content {
+        width: 100%;
+        display: grid;
+        min-height: 10vh;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    } 
+    #mainpage-image {
+        width: 300px;
+        height: 200px;
+    }  
 }
+
+
