@@ -234,11 +234,17 @@
         align-items: center;
         margin-left: 5vw;
         margin-right: 5vw;
-        
-
     }   
-  
-    
+
+    #Aboutpage-content{
+        width: 100%;
+        display: grid;
+        min-height: 10vh;
+        justify-items: center;
+        align-items: center;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+     
     img{
         width: 100%;
     }
